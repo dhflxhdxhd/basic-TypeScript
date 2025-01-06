@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // target 옵션 :  컴파일 결과 생성되는 자바스크립트 코드의 버전을 설정 (ESNext : JavaScript의 가장 최신 버전)
+    "outDir": "dist", // (선택) outDir 옵션 : 컴파일 결과 생성할 자바스크립트 코드의 위치를 결정
+    "module": "ESNext", // 모듈 옵션
+    // "skipLibCheck": true // 타사 라이브러리 내부의 타입 검사를 무시
+    // "strict": true
+    "moduleDetection": "force"
+  },
+  // "ts-node": {},
+  "include": ["src"] // include 옵션 : 컴파일 할 타입스크립트 파일의 범위와 위치를 알려주는 옵션
+}
