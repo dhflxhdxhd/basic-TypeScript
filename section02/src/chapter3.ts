@@ -20,10 +20,11 @@ user = {
   name: "홍길동",
 };
 
+// readonly 키워드
 let config: {
   readonly apiKey: string;
 } = {
   apiKey: "MY API KEY",
 };
 
-config.apiKey = "hacked";
+// config.apiKey = "hacked"; [error] 읽기 전용 속성이므로 'apiKey'에 할당할 수 없습니다
